@@ -56,10 +56,27 @@ img {
   border: 5px solid black;
   border-radius: 25px;
 }
+.experiencia img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.platos {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .platos a {
   padding: 25px;
   margin: 25px;
+}
+.final {
+  background-color: #a9d3a3;
+  padding: 20px;
+  margin: 10px;
+  border: 5px solid black;
+  border-radius: 25px;
 }
 .container {
   width: min(1100px, calc(100% - 40px));
@@ -96,105 +113,6 @@ img {
 .nav-links a:hover,
 .nav-links a[aria-current="page"] {
   color: #a17034;
-}
-.hero {
-  background: var(--forest);
-  color: white;
-}
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 40px;
-  align-items: center;
-  min-height: 440px;
-  padding-block: 55px;
-}
-.hero h1 {
-  font-size: clamp(36px, 5vw, 65px);
-  margin: 10px 0 20px;
-}
-.hero p {
-  max-width: 540px;
-  color: #dce6df;
-}
-.hero img {
-  width: 100%;
-  border-radius: 18px;
-  box-shadow: 0 18px 45px #071f183d;
-}
-.eyebrow {
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--gold);
-}
-.btn {
-  display: inline-block;
-  background: var(--gold);
-  color: #21372d;
-  padding: 12px 25px;
-  border-radius: 4px;
-  font-weight: 700;
-  margin-top: 10px;
-}
-.btn:hover {
-  filter: brightness(0.93);
-}
-.section {
-  padding-block: 68px;
-}
-.section h2 {
-  font-size: 36px;
-  margin: 0 0 15px;
-}
-.muted {
-  color: var(--mute);
-}
-.feature-layout {
-  display: flex;
-  gap: 24px;
-  margin-top: 30px;
-}
-.tile {
-  background: white;
-  border-radius: 14px;
-  overflow: hidden;
-  box-shadow: 0 5px 25px #173b2d13;
-  flex: 1;
-}
-.tile img {
-  height: 190px;
-  width: 100%;
-  object-fit: cover;
-}
-.tile-copy {
-  padding: 23px;
-}
-.tile h3 {
-  font-size: 24px;
-  margin: 0 0 10px;
-}
-.tile p {
-  margin: 0;
-}
-.statement {
-  background: #ecf1e9;
-  padding: 26px;
-  border-left: 5px solid var(--gold);
-  border-radius: 5px;
-  margin-top: 38px;
-}
-.statement p {
-  margin: 0;
-}
-.statement-title {
-  font-size: 19px;
-  font-weight: 700;
-  color: var(--forest);
-}
-.section-heading {
-  max-width: 690px;
 }
 .site-footer {
   background: #102b24;
