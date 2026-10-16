@@ -18,7 +18,7 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 | ---------- | --------------- | ---- | ------------------- |
-|            |                 |      |                     |
+| Sebastián Marín fernández           | Nuestro equipo                | Sebas763     |  equipo.html y equipo.css                   |
 
 ## Evidencias Git
 
