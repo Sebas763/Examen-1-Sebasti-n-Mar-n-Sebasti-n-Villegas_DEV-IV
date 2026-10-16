@@ -5,22 +5,88 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>SAVIA | Nuestro equipo</title>
     <link href="../css/styles.css" rel="stylesheet" />
+    <link href="../css/equipo.css" rel="stylesheet" />
   </head>
   <body>
     <header class="site-header">
-      <!-- Espacio de trabajo: está pendiente de implementación. -->
+      <div class="container nav-inner">
+        <a class="logo" href="../index.html"> SAVIA. </a>
+        <nav aria-label="Navegaci&oacute;n principal" class="nav-links">
+          <a href="../index.html"> Inicio </a>
+          <a class="nav-contact" href="menu.html"> Nuestra carta </a>
+          <a class="nav-contact" aria-current="page" href="equipo.html">
+            Nuestro equipo
+          </a>
+        </nav>
+      </div>
     </header>
 
     <section class="page-hero">
       <div class="container">
         <span class="eyebrow"> SAVIA </span>
         <h1>Nuestro equipo</h1>
-        <p>Las personas detr&aacute;s de cada experiencia.</p>
+        <p>
+          Cada plato que sale de nuestra cocina pasa por las manos de tres
+          personas. Conoc&eacute; qui&eacute;nes son y en qu&eacute; etapa del
+          proceso participa cada uno.
+        </p>
       </div>
     </section>
+
     <main class="section container">
-      <!-- Espacio de trabajo: esta página está pendiente de implementación. -->
+      <nav class="equipo-nav" aria-label="Integrantes del equipo">
+        <a href="#esteban">Esteban</a>
+        <a href="#carla">Carla</a>
+        <a href="#pepe">Pepe</a>
+      </nav>
+
+      <section id="esteban" class="integrante">
+        <span class="etapa">Etapa 1 &middot; Preparaci&oacute;n</span>
+        <h2>Esteban Aguilar</h2>
+        <img
+          src="../Cocinero postres.jpg"
+          alt="Esteban Aguilar, encargado de postres"
+        />
+        <p>
+          Recibe los ingredientes, los lava, corta y deja listos. Tambi&eacute;n
+          prepara los postres con anticipaci&oacute;n.
+        </p>
+      </section>
+
+      <section id="carla" class="integrante">
+        <span class="etapa">Etapa 2 &middot; Cocci&oacute;n</span>
+        <h2>Carla Porras</h2>
+        <img
+          src="../Platos fuertes.jpg"
+          alt="Carla Porras, encargada de platos fuertes"
+        />
+        <p>
+          Cocina los platos fuertes. Controla los tiempos, la temperatura y la
+          saz&oacute;n de cada orden.
+        </p>
+      </section>
+
+      <section id="pepe" class="integrante">
+        <span class="etapa">Etapa 3 &middot; Emplatado</span>
+        <h2>Pepe Loria</h2>
+        <img src="../Entrantes.jpg" alt="Pepe Loria, encargado de entrantes" />
+        <p>
+          Arma y decora el plato antes de que salga a la mesa. Tambi&eacute;n
+          sirve los entrantes.
+        </p>
+      </section>
+
+      <section class="colaboracion">
+        <h2>Como trabajamos juntos?</h2>
+        <p>
+          Esteban deja todo listo para que Carla pueda cocinar sin retrasos, y
+          Carla le pasa el plato a Pepe para el toque final. Se comunican en
+          cada pedido para que todas las partes de una orden salgan al mismo
+          tiempo y con la misma calidad.
+        </p>
+      </section>
     </main>
+
     <footer class="site-footer">
       <div class="container footer-inner">
         <strong> SAVIA. &middot; Cocina con prop&oacute;sito </strong>
