@@ -18,14 +18,32 @@ El sitio incluye la página Inicio y las plantillas `pages/menu.html`, `pages/eq
 
 | Estudiante | Página asignada | Rama | Commits principales |
 | ---------- | --------------- | ---- | ------------------- |
-|            |                 |      |                     |
+| Sebastián Marín fernández           | Nuestro equipo                | Sebas763     |  `<hash>` Feature 2 — Equipo: detrás de cada plato, `2c53458` use flex |
+| Sebastián Villegas          |  Carta interactiva        | Sebas-Villegas    | `<hash>` incorporación feature 1, `efe6e0a` Retoques finales del feature 1 |                  |
 
 ## Evidencias Git
 
 | Funcionalidad/corrección | PR hacia develop | Revisor | Resultado de merge / conflicto si ocurrió |
 | ------------------------ | ---------------- | ------- | ----------------------------------------- |
-|                          |                  |         |                                           |
 
 ## Verificación final
 
 Registrar las pruebas de funcionamiento a 1280 px y 375 px, enlaces y páginas.
+
+1280 px (escritorio): Inicio, Nuestra carta y Nuestro equipo se muestran correctamente, sin elementos desbordados.
+
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-10.png)
+
+375 px (móvil): el contenido se reorganiza en una columna y la navegación se adapta al ancho de pantalla.
+
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+
+el menú principal funciona desde todas las páginas; los botones de Nuestro equipo desplazan a cada integrante igual en nuestra carta.
+
+todas las imagenes cargan correctamente y están guardadas localmente en el proyecto.
+
+herramientas de desarrollador del navegador (Inspeccionar).
